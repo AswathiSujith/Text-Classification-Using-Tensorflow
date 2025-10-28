@@ -60,13 +60,14 @@ Text Input → Preprocessing → Embedding Layer → Deep Learning Model → Cla
 - Jupyter Notebook
 
 ### Required Libraries
-''bash
+```bash
 pip install tensorflow numpy pandas scikit-learn nltk matplotlib
+```
 
 ## Implementation
 
 ### Sample Model Setup:
-''bash
+```bash
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, LSTM, Dense
@@ -95,6 +96,7 @@ model.fit(x_train, y_train, batch_size=64, epochs=3, validation_split=0.2)
 # Evaluate model
 loss, acc = model.evaluate(x_test, y_test)
 print(f"Test Accuracy: {acc*100:.2f}%")
+```
 
 ## 📊 Results
 
