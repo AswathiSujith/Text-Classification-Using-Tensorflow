@@ -60,13 +60,13 @@ Text Input → Preprocessing → Embedding Layer → Deep Learning Model → Cla
 - Jupyter Notebook
 
 ### Required Libraries
-```bash
+''bash
 pip install tensorflow numpy pandas scikit-learn nltk matplotlib
 
 ## Implementation
 
 ### Sample Model Setup:
-
+''bash
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, LSTM, Dense
